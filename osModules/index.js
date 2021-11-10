@@ -1,0 +1,20 @@
+let os = require("os");
+// console.log(os.arch());
+// console.log(os.freemem());
+let freeMem = os.freemem();
+// console.log(`The system free memory is: ${freeMem / 1024 / 1024 / 1024}`);
+// let totalMem = os.totalmem();
+// console.log(`The sytem total memory is: ${totalMem / 1024 / 1024 / 1024}Gb and
+// system has free memory : ${freeMem / 1024 / 1024 / 1024}`);
+console.log(os.hostname());
+console.log(os.platform());
+console.log(os.tmpdir());
+console.log(os.type());
+console.log(os.userInfo());
+console.log(os.version());
+console.log(os.userInfo());
+console.log(os.uptime());
+console.log(os.type());
+console.log(os.cpus());
+console.log(os.endianness());
+console.log(os.getPriority());

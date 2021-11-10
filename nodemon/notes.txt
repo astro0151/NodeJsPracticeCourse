@@ -1,0 +1,9 @@
+Nodemon is a tool that helps us to develop nodejs 
+based application by automatically restarting the 
+node application when file data gets changes....
+
+node i nodemon -g 
+-g => it install in our operating system mean globally so installing nodemon globally
+means ours projext do not depends on nodemon.....
+now isnstead of using terminal code : node index.js---->nodemon index.js (once only)
+to exit nodemon : ctrl+c+ctrl+c=>means two times ctrl+c

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Gulbahar Ali",
+        "contact": 63095061644,
+        "skills": "MERN stack",
+        "designation": "Full stack developer",
+        "address": "NOIDA,UP"
+    },
+    {
+        "name": "Elon Musk",
+        "contact": 63046061644,
+        "skills": "Rocket science",
+        "designation": "Mars Rider",
+        "address": "Mars"
+    },
+    {
+        "name": "Virat kohli",
+        "contact": 63034061644,
+        "skills": "MEAN stack",
+        "designation": "Full stack developer",
+        "address": "NOIDA,UP"
+    },
+    {
+        "name": "Ali",
+        "contact": 63095061644,
+        "skills": "Java",
+        "designation": "Full stack developer",
+        "address": "NOIDA,UP"
+    }
+]

@@ -1,0 +1,22 @@
+web server:
+To access web page of any web application,
+we need a web server.The web server will handle all the 
+http requests for the web application.
+
+eg: IIS is a web server of ASPM.net web application.
+apache---> for php / java web application.
+
+Nodejs provides capabilities to create our own web server which
+    will handle http requests asynchronousely. we can use IIS or 
+    Apache to run Nodejs web application.But it is recommended to 
+    use Nodejs web server(own created).
+
+The http.createServer()---> method includes request and response parameters 
+        which is supplied by nodejs.
+    The request object can be used to get infromation 
+    about the current HTTP request.
+    eg: url,request header,and data....
+
+    The response can be used to send a response for a current Http request.
+    if the response from the http seerver is supposed to be displayed as html,
+    se should include an http header with the correct content type.

@@ -1,0 +1,11 @@
+wheneven we run any function through node then 
+node adds a wrap function itself.
+mean: node wrap our function or function code into wrap 
+      function known as IIFE function....in javascript;
+      (
+          {
+              wrapped code here;
+          }
+      )()
+
+      

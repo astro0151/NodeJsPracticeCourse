@@ -1,0 +1,56 @@
+to work with npm;
+first we need to initialize npm in our node project,the root directory;
+command: astrophile㉿astro)-[~/nodeJs_Practice/npmModules]> npm init
+
+ bellow all scenario after npm init command:
+                                                                                                                               
+┌──(astrophile㉿astro)-[~/nodeJs_Practice/npmModules]
+└─$ npm init                       
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (npmmodules) astrophile
+version: (1.0.0) 
+description: Learning npm modules
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: Gulbahar Ali
+license: (ISC) 
+About to write to /home/astrophile/nodeJs_Practice/npmModules/package.json:
+
+{
+  "name": "astrophile",
+  "version": "1.0.0",
+  "description": "Learning npm modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gulbahar Ali",
+  "license": "ISC"
+}
+
+ 
+Is this OK? (yes) hit enter and done
+
+now package.json file is added to our root directory,npmModules
+
+question; what is package in root folder?
+Basically,it conatins all our packages we import through npm to owr root directory,mean 
+all conatins all dependencies.
+1. npm i chalk or npm install chalk 
+ chalk--> chalk manuplates the backgrounds of our console outputs
+ now an another directory called nodu_modules will be added to root directory
+ it contains all the required code of our dependencies.
+2. npm i validator
+ -->this module is used to valildates alll our validation required in forms 
+   it is very usefull and shorthand for validation

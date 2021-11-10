@@ -1,0 +1,12 @@
+In this chepter topics coverd:
+1.how to create our own module 
+2.how to import our own module that has been created........
+
+note: in nodejs every idividual file called as module;
+and those module has initially their scope private scope;
+
+to import our module or any module somewhere, we need to make their scope public first.
+
+guide: operator.js file is our own created module 
+       and we are going to use this module in index.js file that root file, mean we are going to 
+       import that module into root file. by changing the scope of module from private to public
